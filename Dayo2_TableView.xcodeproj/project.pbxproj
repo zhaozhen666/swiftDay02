@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A1A73F1DF6E149009013C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A1A73E1DF6E149009013C5 /* AppDelegate.swift */; };
+		08A1A7411DF6E149009013C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A1A7401DF6E149009013C5 /* ViewController.swift */; };
+		08A1A7441DF6E149009013C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A1A7421DF6E149009013C5 /* Main.storyboard */; };
+		08A1A7461DF6E149009013C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A1A7451DF6E149009013C5 /* Assets.xcassets */; };
+		08A1A7491DF6E149009013C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A1A7471DF6E149009013C5 /* LaunchScreen.storyboard */; };
+		08A1A7541DF6E149009013C5 /* Dayo2_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A1A7531DF6E149009013C5 /* Dayo2_TableViewTests.swift */; };
+		08A1A75F1DF6E14A009013C5 /* Dayo2_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A1A75E1DF6E14A009013C5 /* Dayo2_TableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A1A7501DF6E149009013C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A1A7331DF6E149009013C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1A73A1DF6E149009013C5;
+			remoteInfo = Dayo2_TableView;
+		};
+		08A1A75B1DF6E14A009013C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A1A7331DF6E149009013C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A1A73A1DF6E149009013C5;
+			remoteInfo = Dayo2_TableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A1A73B1DF6E149009013C5 /* Dayo2_TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dayo2_TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1A73E1DF6E149009013C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08A1A7401DF6E149009013C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08A1A7431DF6E149009013C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08A1A7451DF6E149009013C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08A1A7481DF6E149009013C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08A1A74A1DF6E149009013C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A1A74F1DF6E149009013C5 /* Dayo2_TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dayo2_TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1A7531DF6E149009013C5 /* Dayo2_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dayo2_TableViewTests.swift; sourceTree = "<group>"; };
+		08A1A7551DF6E14A009013C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A1A75A1DF6E14A009013C5 /* Dayo2_TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dayo2_TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A1A75E1DF6E14A009013C5 /* Dayo2_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dayo2_TableViewUITests.swift; sourceTree = "<group>"; };
+		08A1A7601DF6E14A009013C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A1A7381DF6E149009013C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A74C1DF6E149009013C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A7571DF6E14A009013C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A1A7321DF6E149009013C5 = {
+			isa = PBXGroup;
+			children = (
+				08A1A73D1DF6E149009013C5 /* Dayo2_TableView */,
+				08A1A7521DF6E149009013C5 /* Dayo2_TableViewTests */,
+				08A1A75D1DF6E14A009013C5 /* Dayo2_TableViewUITests */,
+				08A1A73C1DF6E149009013C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A1A73C1DF6E149009013C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A1A73B1DF6E149009013C5 /* Dayo2_TableView.app */,
+				08A1A74F1DF6E149009013C5 /* Dayo2_TableViewTests.xctest */,
+				08A1A75A1DF6E14A009013C5 /* Dayo2_TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A1A73D1DF6E149009013C5 /* Dayo2_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				08A1A73E1DF6E149009013C5 /* AppDelegate.swift */,
+				08A1A7401DF6E149009013C5 /* ViewController.swift */,
+				08A1A7421DF6E149009013C5 /* Main.storyboard */,
+				08A1A7451DF6E149009013C5 /* Assets.xcassets */,
+				08A1A7471DF6E149009013C5 /* LaunchScreen.storyboard */,
+				08A1A74A1DF6E149009013C5 /* Info.plist */,
+			);
+			path = Dayo2_TableView;
+			sourceTree = "<group>";
+		};
+		08A1A7521DF6E149009013C5 /* Dayo2_TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				08A1A7531DF6E149009013C5 /* Dayo2_TableViewTests.swift */,
+				08A1A7551DF6E14A009013C5 /* Info.plist */,
+			);
+			path = Dayo2_TableViewTests;
+			sourceTree = "<group>";
+		};
+		08A1A75D1DF6E14A009013C5 /* Dayo2_TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08A1A75E1DF6E14A009013C5 /* Dayo2_TableViewUITests.swift */,
+				08A1A7601DF6E14A009013C5 /* Info.plist */,
+			);
+			path = Dayo2_TableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A1A73A1DF6E149009013C5 /* Dayo2_TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1A7631DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableView" */;
+			buildPhases = (
+				08A1A7371DF6E149009013C5 /* Sources */,
+				08A1A7381DF6E149009013C5 /* Frameworks */,
+				08A1A7391DF6E149009013C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dayo2_TableView;
+			productName = Dayo2_TableView;
+			productReference = 08A1A73B1DF6E149009013C5 /* Dayo2_TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08A1A74E1DF6E149009013C5 /* Dayo2_TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1A7661DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableViewTests" */;
+			buildPhases = (
+				08A1A74B1DF6E149009013C5 /* Sources */,
+				08A1A74C1DF6E149009013C5 /* Frameworks */,
+				08A1A74D1DF6E149009013C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A1A7511DF6E149009013C5 /* PBXTargetDependency */,
+			);
+			name = Dayo2_TableViewTests;
+			productName = Dayo2_TableViewTests;
+			productReference = 08A1A74F1DF6E149009013C5 /* Dayo2_TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08A1A7591DF6E14A009013C5 /* Dayo2_TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A1A7691DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableViewUITests" */;
+			buildPhases = (
+				08A1A7561DF6E14A009013C5 /* Sources */,
+				08A1A7571DF6E14A009013C5 /* Frameworks */,
+				08A1A7581DF6E14A009013C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A1A75C1DF6E14A009013C5 /* PBXTargetDependency */,
+			);
+			name = Dayo2_TableViewUITests;
+			productName = Dayo2_TableViewUITests;
+			productReference = 08A1A75A1DF6E14A009013C5 /* Dayo2_TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A1A7331DF6E149009013C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhaozhen;
+				TargetAttributes = {
+					08A1A73A1DF6E149009013C5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					08A1A74E1DF6E149009013C5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08A1A73A1DF6E149009013C5;
+					};
+					08A1A7591DF6E14A009013C5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08A1A73A1DF6E149009013C5;
+					};
+				};
+			};
+			buildConfigurationList = 08A1A7361DF6E149009013C5 /* Build configuration list for PBXProject "Dayo2_TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08A1A7321DF6E149009013C5;
+			productRefGroup = 08A1A73C1DF6E149009013C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A1A73A1DF6E149009013C5 /* Dayo2_TableView */,
+				08A1A74E1DF6E149009013C5 /* Dayo2_TableViewTests */,
+				08A1A7591DF6E14A009013C5 /* Dayo2_TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A1A7391DF6E149009013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1A7491DF6E149009013C5 /* LaunchScreen.storyboard in Resources */,
+				08A1A7461DF6E149009013C5 /* Assets.xcassets in Resources */,
+				08A1A7441DF6E149009013C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A74D1DF6E149009013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A7581DF6E14A009013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A1A7371DF6E149009013C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1A7411DF6E149009013C5 /* ViewController.swift in Sources */,
+				08A1A73F1DF6E149009013C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A74B1DF6E149009013C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1A7541DF6E149009013C5 /* Dayo2_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A1A7561DF6E14A009013C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1A75F1DF6E14A009013C5 /* Dayo2_TableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A1A7511DF6E149009013C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A1A73A1DF6E149009013C5 /* Dayo2_TableView */;
+			targetProxy = 08A1A7501DF6E149009013C5 /* PBXContainerItemProxy */;
+		};
+		08A1A75C1DF6E14A009013C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A1A73A1DF6E149009013C5 /* Dayo2_TableView */;
+			targetProxy = 08A1A75B1DF6E14A009013C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08A1A7421DF6E149009013C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A1A7431DF6E149009013C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08A1A7471DF6E149009013C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A1A7481DF6E149009013C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A1A7611DF6E14A009013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A1A7621DF6E14A009013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A1A7641DF6E14A009013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dayo2_TableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		08A1A7651DF6E14A009013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dayo2_TableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		08A1A7671DF6E14A009013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dayo2_TableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayo2_TableView.app/Dayo2_TableView";
+			};
+			name = Debug;
+		};
+		08A1A7681DF6E14A009013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dayo2_TableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayo2_TableView.app/Dayo2_TableView";
+			};
+			name = Release;
+		};
+		08A1A76A1DF6E14A009013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dayo2_TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dayo2_TableView;
+			};
+			name = Debug;
+		};
+		08A1A76B1DF6E14A009013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dayo2_TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zz.Dayo2-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dayo2_TableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A1A7361DF6E149009013C5 /* Build configuration list for PBXProject "Dayo2_TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1A7611DF6E14A009013C5 /* Debug */,
+				08A1A7621DF6E14A009013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A1A7631DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1A7641DF6E14A009013C5 /* Debug */,
+				08A1A7651DF6E14A009013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08A1A7661DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1A7671DF6E14A009013C5 /* Debug */,
+				08A1A7681DF6E14A009013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08A1A7691DF6E14A009013C5 /* Build configuration list for PBXNativeTarget "Dayo2_TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A1A76A1DF6E14A009013C5 /* Debug */,
+				08A1A76B1DF6E14A009013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A1A7331DF6E149009013C5 /* Project object */;
+}
